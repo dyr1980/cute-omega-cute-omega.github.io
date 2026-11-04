@@ -1,4 +1,4 @@
-Sheas Cealer 转 Dev-Sidecar 的配置转换器
+Sheas Cealer 转 Dev-Sidecar 的配置转换器     
 把Sheas Cealer的配置文件转换成Dev-Sidecar的配置文件，并支持与其他Dev-Sidecar配置合并。目前由GitHub Actions自动执行，当前每8小时更新一次配置。配置id为io.github.dyr1980。
 
 用法
