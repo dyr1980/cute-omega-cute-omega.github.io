@@ -155,6 +155,14 @@
       "internal-api.virginia.labs.lumalabs.ai": {
         "34.204.141.236": true,
       },
+      "^(store|checkout)\\.steampowered\\.com$": {
+        "104.83.198.104": true,
+        "184.31.230.122": true,
+        "23.209.218.108": true,
+        "23.35.102.114": true,
+        "23.51.62.114": true,
+        "23.55.98.103": true,
+      },
       "community.cloudflare.steamstatic.com": {
         "172.64.145.151": true,
         "104.18.42.105": true,
@@ -162,14 +170,6 @@
       },
       "objects-origin.githubusercontent.com": {
         "140.82.113.22": true,
-      },
-      "^(store|checkout).steampowered.com$": {
-        "104.83.198.104": true,
-        "184.31.230.122": true,
-        "23.209.218.108": true,
-        "23.35.102.114": true,
-        "23.51.62.114": true,
-        "23.55.98.103": true,
       },
       "clientconfig.akamai.steamstatic.com": {
         " 23.208.12.191": true,
@@ -446,12 +446,11 @@
       "jsdelivr.pai233.top": {
         "66.33.60.129": true,
         "66.33.60.193": true,
-        "66.33.60.194": true,
         "76.76.21.142": true,
         "76.76.21.164": true,
-        "66.33.60.35": true,
-        "66.33.60.67": true,
-        "76.76.21.22": true,
+        "66.33.60.34": true,
+        "76.76.21.93": true,
+        "76.76.21.98": true,
       },
       "packages.elastic.co": {
         "34.120.127.130": true,
@@ -1128,8 +1127,10 @@
         "51.137.3.17": true,
       },
       "s.yimg.com": {
-        "69.147.92.11": true,
-        "69.147.92.12": true,
+        "209.73.190.11": true,
+        "209.73.190.12": true,
+        "69.147.88.7": true,
+        "69.147.88.8": true,
       },
       "telegra.ph": {
         "149.154.161.145": true,
@@ -1284,6 +1285,11 @@
           sni: "www.baidu.com",
         },
       },
+      "^(store|checkout)\\.steampowered\\.com$": {
+        ".*": {
+          sni: "baidu.com",
+        },
+      },
       "objects-origin.githubusercontent.com": {
         ".*": {
           sni: "none",
@@ -1293,11 +1299,6 @@
         ".*": {
           unVerifySsl: true,
           desc: "steam社区数据不能也不需调整sni,直接直连",
-          sni: "baidu.com",
-        },
-      },
-      "^(store|checkout).steampowered.com$": {
-        ".*": {
           sni: "baidu.com",
         },
       },
@@ -3446,7 +3447,7 @@
     },
     metaInfo: {
       updateLog: "周期性自动更新",
-      version: 202611121320,
+      version: 202611130029,
       id: "io.github.cute-omega.dns",
     },
   },
