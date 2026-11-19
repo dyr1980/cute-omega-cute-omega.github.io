@@ -1183,7 +1183,6 @@
       },
       "^.*(wikipedia|wikimedia|wikinews|wiktionary|wikiversity|wikidata|wikiquote|wikivoyage|wikifunctions|wikibooks).org$": {
         ".*": {
-          unVerifySsl: true,
           sni: "mediawiki.org",
         },
       },
@@ -2735,7 +2734,6 @@
       },
       "*w.wiki": {
         ".*": {
-          unVerifySsl: true,
           sni: "mediawiki.org",
         },
       },
@@ -3377,7 +3375,7 @@
     },
     metaInfo: {
       updateLog: "周期性自动更新",
-      version: 202611191329,
+      version: 202611200059,
       id: "io.github.dyr1980",
     },
   },
