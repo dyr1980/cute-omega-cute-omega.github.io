@@ -317,9 +317,6 @@
       "my.urbandictionary.com": {
         "5.161.34.136": true,
       },
-      "store.steampowered.com": {
-        "23.15.142.182": true,
-      },
       "web-static.archive.org": {
         "207.241.237.2": true,
       },
@@ -1394,11 +1391,6 @@
         },
       },
       "my.urbandictionary.com": {
-        ".*": {
-          sni: "none",
-        },
-      },
-      "store.steampowered.com": {
         ".*": {
           sni: "none",
         },
@@ -3397,8 +3389,8 @@
     },
     metaInfo: {
       updateLog: "周期性自动更新",
-      version: 202611212107,
-      id: "io.github.dyr1980",
+      version: 202611212147,
+      id: "io.github.cute-omega",
     },
   },
 }

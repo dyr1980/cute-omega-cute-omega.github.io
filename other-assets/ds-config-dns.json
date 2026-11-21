@@ -323,9 +323,6 @@
       "my.urbandictionary.com": {
         "5.161.34.136": true,
       },
-      "store.steampowered.com": {
-        "23.15.142.182": true,
-      },
       "web-static.archive.org": {
         "207.241.237.2": true,
       },
@@ -444,11 +441,12 @@
         "52.6.22.65": true,
       },
       "jsdelivr.pai233.top": {
+        "66.33.60.130": true,
         "66.33.60.193": true,
+        "66.33.60.194": true,
+        "76.76.21.123": true,
+        "76.76.21.164": true,
         "76.76.21.241": true,
-        "66.33.60.35": true,
-        "66.33.60.66": true,
-        "66.33.60.67": true,
         "76.76.21.61": true,
         "76.76.21.93": true,
       },
@@ -1127,9 +1125,8 @@
         "51.137.3.17": true,
       },
       "s.yimg.com": {
-        "69.147.80.12": true,
-        "69.147.80.15": true,
-        "74.6.160.106": true,
+        "69.147.92.11": true,
+        "69.147.92.12": true,
       },
       "telegra.ph": {
         "149.154.161.145": true,
@@ -1463,11 +1460,6 @@
         },
       },
       "my.urbandictionary.com": {
-        ".*": {
-          sni: "none",
-        },
-      },
-      "store.steampowered.com": {
         ".*": {
           sni: "none",
         },
@@ -3466,7 +3458,7 @@
     },
     metaInfo: {
       updateLog: "周期性自动更新",
-      version: 202611212107,
+      version: 202611212147,
       id: "io.github.cute-omega.dns",
     },
   },
