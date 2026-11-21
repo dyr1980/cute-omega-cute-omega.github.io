@@ -445,11 +445,12 @@
       },
       "jsdelivr.pai233.top": {
         "66.33.60.193": true,
-        "76.76.21.164": true,
+        "76.76.21.241": true,
+        "66.33.60.35": true,
+        "66.33.60.66": true,
         "66.33.60.67": true,
-        "76.76.21.22": true,
         "76.76.21.61": true,
-        "76.76.21.98": true,
+        "76.76.21.93": true,
       },
       "packages.elastic.co": {
         "34.120.127.130": true,
@@ -1129,7 +1130,6 @@
         "69.147.80.12": true,
         "69.147.80.15": true,
         "74.6.160.106": true,
-        "74.6.160.107": true,
       },
       "telegra.ph": {
         "149.154.161.145": true,
@@ -1621,6 +1621,7 @@
           sni: "baidu.com",
         },
         ".*": {
+          verifyHost: "steamcommunity.com",
           sni: "none",
         },
       },
@@ -1683,6 +1684,7 @@
       },
       "*.media.tumblr.com": {
         ".*": {
+          verifyHost: "tumblr.com",
           sni: "none",
         },
       },
@@ -1766,6 +1768,7 @@
       },
       "images.prismic.io": {
         ".*": {
+          verifyHost: "imgix.net",
           sni: "imgix.net",
         },
       },
@@ -1808,6 +1811,7 @@
       },
       "*hentaiverse.org": {
         ".*": {
+          verifyHost: "hentaiverse.org",
           sni: "none",
         },
       },
@@ -1921,6 +1925,7 @@
       },
       "*discordapp.net": {
         ".*": {
+          verifyHost: "discordapp.net",
           sni: "none",
         },
       },
@@ -1937,11 +1942,13 @@
       },
       "*greasyfork.org": {
         ".*": {
+          verifyHost: "greasyfork.org",
           sni: "www.baidu.com",
         },
       },
       "*huggingface.co": {
         ".*": {
+          verifyHost: "huggingface.cn",
           sni: "huggingface.cn",
         },
       },
@@ -2035,6 +2042,7 @@
       },
       "*ehtracker.org": {
         ".*": {
+          verifyHost: "ehtracker.org",
           sni: "none",
         },
       },
@@ -2121,6 +2129,7 @@
       },
       "huggingface.co": {
         ".*": {
+          verifyHost: "huggingface.cn",
           sni: "huggingface.cn",
         },
       },
@@ -2146,6 +2155,7 @@
       },
       "polymarket.com": {
         ".*": {
+          verifyHost: "vercel.com",
           sni: "vercel.com",
         },
       },
@@ -2190,6 +2200,7 @@
       },
       "*amazon.co.jp": {
         ".*": {
+          verifyHost: "p-yo-www-amazon-com-kalias.amazon.com",
           sni: "amazon.com",
         },
       },
@@ -2359,6 +2370,7 @@
       },
       "*lumalabs.ai": {
         ".*": {
+          verifyHost: "vercel.com",
           sni: "vercel.com",
         },
       },
@@ -2487,6 +2499,7 @@
       },
       "*github.com": {
         ".*": {
+          verifyHost: "github.com",
           sni: "none",
         },
       },
@@ -2528,6 +2541,7 @@
       },
       "*vercel.app": {
         ".*": {
+          verifyHost: "vercel.com",
           sni: "vercel.com",
         },
       },
@@ -2686,6 +2700,7 @@
       },
       "*arena.ai": {
         ".*": {
+          verifyHost: "mta-sts.everify.arena.ai",
           sni: "arena.ai",
         },
       },
@@ -2701,6 +2716,7 @@
       },
       "*etsy.com": {
         ".*": {
+          verifyHost: "etsy.com",
           sni: "none",
         },
       },
@@ -2737,11 +2753,13 @@
       },
       "*.w.wiki": {
         ".*": {
+          verifyHost: "w.wiki",
           sni: "none",
         },
       },
       "*bbc.com": {
         ".*": {
+          verifyHost: "bbc.com",
           sni: "none",
         },
       },
@@ -2757,11 +2775,13 @@
       },
       "*mega.nz": {
         ".*": {
+          verifyHost: "mega.nz",
           sni: "none",
         },
       },
       "*nyaa.si": {
         ".*": {
+          verifyHost: "ddos-guard.net",
           sni: "ddos-guard.net",
         },
       },
@@ -2793,6 +2813,7 @@
       },
       "*rfi.fr": {
         ".*": {
+          verifyHost: "rfi.fr",
           sni: "none",
         },
       },
@@ -2803,6 +2824,7 @@
       },
       "*w.wiki": {
         ".*": {
+          verifyHost: "mediawiki.org",
           sni: "mediawiki.org",
         },
       },
@@ -3444,7 +3466,7 @@
     },
     metaInfo: {
       updateLog: "周期性自动更新",
-      version: 202611211309,
+      version: 202611212107,
       id: "io.github.cute-omega.dns",
     },
   },
